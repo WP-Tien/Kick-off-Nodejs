@@ -1,2 +1,2 @@
-console.log( ' Hello ' + ' World ' );
-
+var name = 'Hello ' + ' World ';
+module.exports = name;
