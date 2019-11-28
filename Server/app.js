@@ -8,3 +8,7 @@ app.get("/", function(req, res) {
     // res.send("<font color=red> Hello World </font>");
     res.sendFile( __dirname + "/index.html" );
 })
+
+app.get("/gioithieu", function(req, res) {
+    res.send('I\'m a ROUTE');
+})
